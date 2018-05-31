@@ -1,9 +1,7 @@
-username=fanjunnan
+username: fanjunnan
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-  profiles:
-    active: test
 mybatis:
 #起别名
     type-aliases-package: com.lanou.bean
